@@ -1,0 +1,277 @@
+body{
+	margin: 0;
+}
+.login {
+	width: 400px;
+	margin: auto;
+	background: #000;
+	color:white;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+.login input{
+	margin-top: 10px;
+	height: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	background-color:#ff6699;
+}
+.hello{
+	color: black;
+}
+button{
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 7px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.header{
+	background: #333;
+	height:45px;
+	border-style: inset;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	width: 95%;
+	margin-left: 25px;
+}
+.loRe{
+margin-right: 30px;
+
+}
+.brand{
+	margin-left: 20px;
+	color: white;
+
+}
+
+.user-info{
+	display: flex;
+	align-items: center;
+	margin-right: 16px;
+}
+
+.user-info.name{
+	color: white;
+	margin-right: 8px;
+}
+
+.cart-info {
+	position: relative;
+}
+
+.cart {
+	background: green;
+	color: white;
+	border: none;
+}
+
+.pk-container {
+	 margin-top:20px;
+	display: grid;
+	padding: 50px 30px 30px 30px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.item-pk {
+	border: 1px solid black;
+	width: 90%;
+    height: 98%;
+    border-radius: 15px;
+    margin-top:30px;
+    margin: 5px 10px;
+	background-color: #f0f5f5;
+    transition: all 0.5s ease;
+    text-align: center;
+    border-style: none;
+     /*vertical-align: middle;*/
+     line-height: 1.5rem; 
+
+}
+.item-pk:hover{
+	transform: scale(1.1,1.1);
+
+}
+
+.container-pk{
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+
+}
+.item {
+	border: 1px solid black;
+	border-radius: 15px;
+    margin-top:30px;
+    margin: 5px 10px;
+	grid-template-columns: auto auto;
+	background-color: #f0f5f5;
+    transition: all 0.5s ease;
+    text-align: center;
+    border-style: none;
+    line-height: 1.5rem; 
+
+}
+.item:hover{
+	transform: scale(1.1,1.1);
+
+}
+
+.item-pk-icon {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.item-pk-name {
+	
+	font: bold 20px Helvetica, Arial, Sans-Serif;
+	margin-left: 8px;
+}
+
+.item-pk-type {
+	font-size: 18px;
+	font-weight: 500;
+	margin-left: 8px;
+	text-decoration: none;
+}
+
+.item-pk-price{
+	font-size: 18px;
+	margin-left: 8px;
+	font-style: bold;
+	color:red;
+}
+
+.item-pk-old-price{
+	font-size: 15px;
+	margin-left: 8px;
+	color: #888;
+	text-decoration: line-through;
+}
+.back{
+
+	font:bold 20px Helvetica;
+	left: 20px;
+	text-decoration: none;
+	color: black;
+	
+}
+.back2{
+
+	font:bold 20px Helvetica;
+	left: 20px;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.item-pk-edit{
+	background:none;
+
+
+}
+.item-pk-delete{
+	background: red;
+	margin-right: 60px;
+}
+.edit{
+	margin-left: 30%;
+	
+}
+.De{
+	margin-left: 40%;
+}
+.EditAndDe{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	left: 20px;
+}
+.displayED{
+	display: flex;
+}
+.item-pk-buy{
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ed3330;
+padding: 7px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.footer{
+	background: #333;
+	padding: 16px;
+	color: white;
+	font-style: bold;
+	font-size: 20px;
+}
+
+.content-wrapper {
+	width: 1050px;
+	margin: 0 auto;
+}
+.none{
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+
+}
+.loRe{
+	justify-content: space-around;
+	width: 20%;
+	display: flex;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+  /*background: #333;*/
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: black;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+@media only screen and (max-width: 600px) {
+   .container {
+	  display: grid;
+	  grid-template-columns: auto;
+   }
+}
